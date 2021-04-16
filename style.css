@@ -2,3 +2,26 @@
   margin: 0;
   padding: 0;
 }
+:root {
+  --eerieblack: #141414;
+  --spacecadet: #1e305c;
+  --orangepeel: #f29602;
+  --whitesmoke: #e5e5e5;
+  --fullwhite: #ffffff;
+}
+header {
+  background-color: var(--eerieblack);
+  color: var(--fullwhite);
+  text-align: center;
+}
+
+main {
+}
+.article-div {
+  display: flex;
+  justify-content: space-between;
+}
+.left-article {
+  background-color: var(--spacecadet);
+  height: 100vh;
+}
