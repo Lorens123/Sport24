@@ -13,15 +13,55 @@ header {
   background-color: var(--eerieblack);
   color: var(--fullwhite);
   text-align: center;
+  height: 100px;
+  font-size: large;
 }
-
+nav {
+  background-color: var(--eerieblack);
+}
+body {
+  text-align: center;
+}
 main {
+  color: var(--whitesmoke);
 }
-.article-div {
+footer {
+  height: 100px;
+  width: auto;
+  background-color: var(--eerieblack);
+  color: var(--whitesmoke);
+}
+.article {
   display: flex;
   justify-content: space-between;
+  height: 100vh;
 }
 .left-article {
   background-color: var(--spacecadet);
-  height: 100vh;
+  flex-grow: 2;
+}
+.main-article {
+  background-color: var(--orangepeel);
+  flex-grow: 6;
+}
+.right-article {
+  background-color: var(--spacecadet);
+  flex-grow: 2;
+}
+
+tr {
+  border: solid var(--spacecadet) 1px;
+  text-align: center;
+  height: 50px;
+  font-size: 20px;
+}
+table {
+  width: 100%;
+  font-family: "Prompt", sans-serif;
+  border-collapse: collapse;
+}
+.lag-class {
+  width: 50%;
+}
+.table-div {
 }
