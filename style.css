@@ -52,7 +52,7 @@ footer {
 tr {
   border: solid var(--spacecadet) 1px;
   text-align: center;
-  height: 50px;
+  height: 30px;
   font-size: 20px;
 }
 table {
