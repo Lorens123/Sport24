@@ -1,8 +1,8 @@
-let swedenButton = document.querySelector(".sweden-button");
-let swedenMenu = document.querySelector(".sweden-menu");
+let countryButton = document.querySelector(".country-button");
+let countryMenu = document.querySelector(".country-menu");
 
-swedenButton.addEventListener("click", toggleswedenMenu);
+countryButton.addEventListener("click", togglecountryMenu);
 
-function toggleswedenMenu() {
-    swedenMenu.classList.toggle("hidden");
+function togglecountryMenu() {
+    countryMenu.classList.toggle("hidden");
 }
