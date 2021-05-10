@@ -1,8 +1,16 @@
-let countryButton = document.querySelector(".country-button");
-let countryMenu = document.querySelector(".country-menu");
+let swedenButton = document.querySelector(".sweden-button");
+let swedenMenu = document.querySelector(".sweden-menu");
 
-countryButton.addEventListener("click", togglecountryMenu);
+swedenButton.addEventListener("click", toggleswedenMenu);
 
-function togglecountryMenu() {
-    countryMenu.classList.toggle("hidden");
+function toggleswedenMenu() {
+    swedenMenu.classList.toggle("hidden");
+}
+let englandButton = document.querySelector(".england-button");
+let englandMenu = document.querySelector(".england-menu");
+
+englandButton.addEventListener("click", toggleenglandMenu);
+
+function toggleenglandMenu() {
+    englandMenu.classList.toggle("hidden");
 }

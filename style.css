@@ -18,10 +18,11 @@ header {
 }
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   background-color: var(--spacecadet);
   width: 100%;
   height: 50px;
+  text-align: center;
 }
 body {
   text-align: center;
@@ -90,8 +91,9 @@ ul a {
 }
 a {
   color: #e5e5e5;
-}
-.nav-li {
   display: flex;
-  justify-content: space-between;
+}
+.sport-menu {
+  display: flex;
+  justify-content: center;
 }
