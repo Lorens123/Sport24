@@ -15,6 +15,7 @@ header {
   text-align: center;
   height: 100px;
   font-size: large;
+  width: 100%;
 }
 nav {
   color: #e5e5e5;
@@ -38,6 +39,7 @@ footer {
   display: flex;
   justify-content: space-between;
   height: 100vh;
+  width: auto;
 }
 .left-article {
   background-color: var(--eerieblack);
