@@ -57,13 +57,18 @@ footer {
 tr {
   border: solid var(--spacecadet) 1px;
   text-align: center;
-  height: 30px;
-  font-size: 20px;
+  height: 40px;
+  width: 10px;
 }
 table {
   width: 100%;
   font-family: "Prompt", sans-serif;
   border-collapse: collapse;
+  text-align: center;
+}
+td,
+th {
+  width: 30px;
 }
 .lag-class {
   width: 50%;
