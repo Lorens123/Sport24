@@ -49,14 +49,11 @@ footer {
   background-color: var(--orangepeel);
   flex-grow: 6;
 }
-.right-article {
-  background-color: var(--eerieblack);
-  flex-grow: 2;
-}
 
 tr {
   border: solid var(--spacecadet) 1px;
   text-align: center;
+  margin: 2rem;
   height: 40px;
   width: 10px;
 }
@@ -105,4 +102,16 @@ a {
 h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 36px;
+}
+.promotion {
+  background-color: var(--spacecadet);
+}
+.second-promotion {
+  background-color: green;
+}
+.second-relegation {
+  background-color: brown;
+}
+.relegation {
+  background-color: red;
 }
