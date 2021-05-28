@@ -54,8 +54,7 @@ tr {
   border: solid var(--spacecadet) 1px;
   text-align: center;
   margin: 2rem;
-  height: 40px;
-  width: 10px;
+  height: 30px;
 }
 table {
   width: 100%;
