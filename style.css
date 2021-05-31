@@ -43,7 +43,7 @@ footer {
 }
 .left-article {
   background-color: var(--eerieblack);
-  flex-grow: 2;
+  flex-grow: 1;
 }
 .main-article {
   background-color: var(--orangepeel);
@@ -57,7 +57,7 @@ tr {
   height: 30px;
 }
 table {
-  width: 50%;
+  width: 60%;
   font-family: "Roboto Mono", monospace;
   border-collapse: collapse;
   text-align: center;
